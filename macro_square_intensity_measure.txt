@@ -1,0 +1,13 @@
+
+x=299;
+y=483;
+w=114;
+h=124;
+
+for(i=x;i<=(x+w);i+=10) {
+	for(j=y;j<=(y+h);j+=10) {
+		print(i, j);
+		makeRectangle(i, j, 10, 10);
+		run("Measure");
+		}
+	}
